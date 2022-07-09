@@ -17,5 +17,6 @@ function cdw() {
   cd ~/workshop/$1
 }
 
-# most common git command pair
-alias gst="git add . && git commit"
+# most common git command combinations
+alias gac="git add . && git commit"
+alias gacp="git add . && git commit && git push"
