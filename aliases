@@ -1,0 +1,21 @@
+#!/usr/bin/env zsh
+
+# fast edit for scripts
+alias virc="$EDITOR ~/.zshrc; source ~/.zshrc"
+
+# fast pacman
+alias p="sudo pacman"
+
+# cd with mkdir
+function mkcd() {
+  mkdir -p $1
+  cd $1
+}
+
+# cd to project folder
+function cdw() {
+  cd ~/workshop/$1
+}
+
+# most common git command pair
+alias gst="git add . && git commit"
